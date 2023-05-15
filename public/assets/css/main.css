@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #22221F;
+    --secondary-color: #1F404A;
+    --tertiary-color: #633B4D;
+    --extra-color: #FFC75F;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+main.main-container {
+    background-color: var(--secondary-color);
+
+    margin: 5% auto;
+
+    width: 40%;
+    height: 70vh;
+
+    border: 10px solid var(--tertiary-color);
+    border-radius: 10px;
+}
+
+div.tasks-index {
+    height: 100%;
+}
+
+div.tasks-index header h3 {
+    color: var(--extra-color);
+}
+
+div.tasks-index header i {
+    color: var(--extra-color);
+    font-size: 1.5rem;
+}
+
+div.tasks-index ol {
+    height: 75%;
+    overflow-y: auto;
+}
+
+div.tasks-index input[type='checkbox'] {
+    border: 2px solid var(--tertiary-color);
+}
+
+div.tasks-index a {
+    text-decoration: none;
+}
+
+div.tasks-index button.delete {
+    width: 200px;
+}
